@@ -29,9 +29,7 @@
         .flexcontainer{
             display: flex; 
             flex-direction: row;
-            background-color: #006A6A;
             justify-content: space-around;
-            padding: 20px;
         }
 
         .header-title{
@@ -46,6 +44,71 @@
             font-size: 20px;
             font-weight: 500;
             margin-bottom: 15px;
+        }
+
+        .coluna1{
+            color: #F2EAD0;
+            background-color: #006A6A;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .coluna1-subtitle{
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+
+        .coluna1-text{
+            padding: 15px;
+        }
+
+        .coluna1-button{
+            text-align: center;
+        }
+
+        .price{
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .month{
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        .button-assinatura{
+            padding: 15px 32px;
+            width: 100%;
+
+            color: #2F7E7E;
+            background-color: #CCCCCC;
+
+            border: none;
+            border-radius: 5px;
+
+            font-size: 16px;
+
+            margin-top: 20px;
+            margin-bottom: 30px;
+
+            cursor: pointer;
+        }
+
+        .button-assinatura:hover{
+            background-color: #E9E9E9;
+        }
+
+        .coluna2{
+            background-color: #008B8A;
+            color: #FFFFFF;
+            width: 50%;
+            padding: 20px;
+        }
+
+        .coluna2-subtitle{
+            text-align: center;
         }
 
     </style>
@@ -66,11 +129,35 @@
            </div>
         </div>
         <div class="flexcontainer">
-            <div>
-                Coluna 1
+            <div class="coluna1">
+                <div class="coluna1-subtitle">
+                    Assinatura mensal: <br>
+                </div>
+                <div class="coluna1-text">
+                    <span class="price">R$ 99,99</span>
+                    <span class="month"> por mês.<br></span>
+                    Cancele a qualquer momento.
+                </div>
+                    
+                <div class="coluna1-button">
+                    <button class="button-assinatura">
+                            Assine Agora
+                    </button>
+                </div>
             </div>
-            <div>
-                Coluna 2
+            <div class="coluna2">
+                <div>
+                    Você terá acesso: 
+                </div>
+                
+                <div>
+                <li>Projeto exclusivos</li>
+                <li>Tutoriais</li>
+                <li>Lives semanais</li>
+                <li>Material didático especializado</li>
+                <li>Fórum</li>
+                <li>Ofertas de emprego</li>
+                </div>
             </div>
         </div>
     </div>
