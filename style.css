@@ -3,6 +3,28 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+input{
+    width: 92%;
+    height: 22px;
+    padding: 0.9rem;
+    font-size: 1rem;
+
+    border-radius: 5px;
+    border: 0;
+
+    margin: 10px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 10px #009E9E;
+}
+
+a{
+    color: #E9E9E9;
+    font-size: 0.8rem;
+}
+
 .container{
     background-color: #E9E9E9;
     margin: auto;
@@ -123,9 +145,39 @@ body{
         box-sizing: border-box;
     }
 
-
-
     .container{
-        width:auto;
+        width: auto;
     }
+}
+
+/* Register.html*/
+
+.coluna-input{
+    background-color: #006A6A;
+    padding: 0.4rem;
+
+    font-size: 1rem;
+
+    text-align: center;
+}
+
+.button-input{
+    padding: 0.9rem 1rem;
+    width: auto;
+
+    color: #2F7E7E;
+    background-color: #CCCCCC;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 1rem;
+
+    margin: auto;
+
+    cursor: pointer;
+}
+
+.button-input:hover{
+    background-color: #E9E9E9;
 }
